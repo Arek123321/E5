@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="gsbm2Model.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="gsbm2ModelStoreContainer">
+    <EntitySet Name="famille" EntityType="gsbm2Model.Store.famille" store:Type="Tables" Schema="gsbm2" />
+    <EntitySet Name="medecin" EntityType="gsbm2Model.Store.medecin" store:Type="Tables" Schema="gsbm2" />
+    <EntitySet Name="medicament" EntityType="gsbm2Model.Store.medicament" store:Type="Tables" Schema="gsbm2" />
+    <EntitySet Name="offrir" EntityType="gsbm2Model.Store.offrir" store:Type="Tables" Schema="gsbm2" />
+    <EntitySet Name="rapport" EntityType="gsbm2Model.Store.rapport" store:Type="Tables" Schema="gsbm2" />
+    <EntitySet Name="visiteur" EntityType="gsbm2Model.Store.visiteur" store:Type="Tables" Schema="gsbm2" />
+    <AssociationSet Name="medicament_fk" Association="gsbm2Model.Store.medicament_fk">
+      <End Role="famille" EntitySet="famille" />
+      <End Role="medicament" EntitySet="medicament" />
+    </AssociationSet>
+    <AssociationSet Name="offrir_fk1" Association="gsbm2Model.Store.offrir_fk1">
+      <End Role="rapport" EntitySet="rapport" />
+      <End Role="offrir" EntitySet="offrir" />
+    </AssociationSet>
+    <AssociationSet Name="offrir_fk2" Association="gsbm2Model.Store.offrir_fk2">
+      <End Role="medicament" EntitySet="medicament" />
+      <End Role="offrir" EntitySet="offrir" />
+    </AssociationSet>
+    <AssociationSet Name="rapport_fk1" Association="gsbm2Model.Store.rapport_fk1">
+      <End Role="visiteur" EntitySet="visiteur" />
+      <End Role="rapport" EntitySet="rapport" />
+    </AssociationSet>
+    <AssociationSet Name="rapport_fk2" Association="gsbm2Model.Store.rapport_fk2">
+      <End Role="medecin" EntitySet="medecin" />
+      <End Role="rapport" EntitySet="rapport" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="famille">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="libelle" Type="varchar" Nullable="false" MaxLength="80" />
+  </EntityType>
+  <EntityType Name="medecin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="prenom" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="adresse" Type="varchar" Nullable="false" MaxLength="80" />
+    <Property Name="tel" Type="varchar" MaxLength="15" />
+    <Property Name="specialiteComplementaire" Type="varchar" MaxLength="50" />
+    <Property Name="departement" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="medicament">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="nomCommercial" Type="varchar" Nullable="false" MaxLength="80" />
+    <Property Name="idFamille" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="composition" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="effets" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="contreIndications" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="offrir">
+    <Key>
+      <PropertyRef Name="idRapport" />
+      <PropertyRef Name="idMedicament" />
+    </Key>
+    <Property Name="idRapport" Type="int" Nullable="false" />
+    <Property Name="idMedicament" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="quantite" Type="int" />
+  </EntityType>
+  <EntityType Name="rapport">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="date" />
+    <Property Name="motif" Type="varchar" MaxLength="100" />
+    <Property Name="bilan" Type="varchar" MaxLength="100" />
+    <Property Name="idVisiteur" Type="char" Nullable="false" MaxLength="4" />
+    <Property Name="idMedecin" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="visiteur">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="char" Nullable="false" MaxLength="4" />
+    <Property Name="nom" Type="char" MaxLength="30" />
+    <Property Name="prenom" Type="char" MaxLength="30" />
+    <Property Name="login" Type="char" MaxLength="20" />
+    <Property Name="mdp" Type="char" MaxLength="20" />
+    <Property Name="adresse" Type="char" MaxLength="30" />
+    <Property Name="cp" Type="char" MaxLength="5" />
+    <Property Name="ville" Type="char" MaxLength="30" />
+    <Property Name="dateEmbauche" Type="date" />
+  </EntityType>
+  <Association Name="medicament_fk">
+    <End Role="famille" Type="gsbm2Model.Store.famille" Multiplicity="1" />
+    <End Role="medicament" Type="gsbm2Model.Store.medicament" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="famille">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="medicament">
+        <PropertyRef Name="idFamille" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="offrir_fk1">
+    <End Role="rapport" Type="gsbm2Model.Store.rapport" Multiplicity="1" />
+    <End Role="offrir" Type="gsbm2Model.Store.offrir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rapport">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="offrir">
+        <PropertyRef Name="idRapport" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="offrir_fk2">
+    <End Role="medicament" Type="gsbm2Model.Store.medicament" Multiplicity="1" />
+    <End Role="offrir" Type="gsbm2Model.Store.offrir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="medicament">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="offrir">
+        <PropertyRef Name="idMedicament" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="rapport_fk1">
+    <End Role="visiteur" Type="gsbm2Model.Store.visiteur" Multiplicity="1" />
+    <End Role="rapport" Type="gsbm2Model.Store.rapport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="visiteur">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="rapport">
+        <PropertyRef Name="idVisiteur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="rapport_fk2">
+    <End Role="medecin" Type="gsbm2Model.Store.medecin" Multiplicity="1" />
+    <End Role="rapport" Type="gsbm2Model.Store.rapport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="medecin">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="rapport">
+        <PropertyRef Name="idMedecin" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
