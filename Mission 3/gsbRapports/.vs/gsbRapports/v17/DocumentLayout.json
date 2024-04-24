@@ -1,0 +1,243 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|f:\\2eme\\blavin\\mission3\\mission 3\\gsbrapports\\gsbrapports\\medliste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\medliste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\dernierrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\dernierrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\dernierrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\dernierrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\medgerer.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\medgerer.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\medgerer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\medgerer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\medgerer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\medgerer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\medliste.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\medliste.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\medgerer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\medgerer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\medecin.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\medecin.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\medliste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\medliste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbrapports\\recherchemed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07ADC727-12D4-41E0-AD98-79C95B9FE075}|gsbRapports\\gsbRapports.csproj|solutionrelative:gsbrapports\\recherchemed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DernierRap.cs",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\DernierRap.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\DernierRap.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\DernierRap.cs",
+              "RelativeToolTip": "gsbRapports\\DernierRap.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwHcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T16:28:57.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DernierRap.cs [Projekt]",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\DernierRap.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\DernierRap.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\DernierRap.cs [Projekt]",
+              "RelativeToolTip": "gsbRapports\\DernierRap.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T16:25:51.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MedGerer.resx",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedGerer.resx",
+              "RelativeDocumentMoniker": "gsbRapports\\MedGerer.resx",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedGerer.resx",
+              "RelativeToolTip": "gsbRapports\\MedGerer.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-16T17:57:01.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "app.config",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\app.config",
+              "RelativeDocumentMoniker": "gsbRapports\\app.config",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\app.config",
+              "RelativeToolTip": "gsbRapports\\app.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-16T17:53:04.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "medecin.cs",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\medecin.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\medecin.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\medecin.cs",
+              "RelativeToolTip": "gsbRapports\\medecin.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:30:48.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\Form1.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\Form1.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\Form1.cs",
+              "RelativeToolTip": "gsbRapports\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T16:27:33.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MedGerer.Designer.cs",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedGerer.Designer.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\MedGerer.Designer.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedGerer.Designer.cs",
+              "RelativeToolTip": "gsbRapports\\MedGerer.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:14:01.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MedListe.Designer.cs",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedListe.Designer.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\MedListe.Designer.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedListe.Designer.cs",
+              "RelativeToolTip": "gsbRapports\\MedListe.Designer.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwL0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:50:07.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MedGerer.cs",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedGerer.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\MedGerer.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedGerer.cs",
+              "RelativeToolTip": "gsbRapports\\MedGerer.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAcwFYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:26:10.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MedListe.cs",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedListe.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\MedListe.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedListe.cs",
+              "RelativeToolTip": "gsbRapports\\MedListe.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAMwBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:25:31.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Projekt]",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\Form1.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\Form1.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\Form1.cs [Projekt]",
+              "RelativeToolTip": "gsbRapports\\Form1.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:07:12.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedGerer.cs [Projekt]",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedGerer.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\MedGerer.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedGerer.cs [Projekt]",
+              "RelativeToolTip": "gsbRapports\\MedGerer.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T11:02:13.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MedListe.cs [Projekt]",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedListe.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\MedListe.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\MedListe.cs [Projekt]",
+              "RelativeToolTip": "gsbRapports\\MedListe.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:07:05.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "rechercheMed.cs [Projekt]",
+              "DocumentMoniker": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\rechercheMed.cs",
+              "RelativeDocumentMoniker": "gsbRapports\\rechercheMed.cs",
+              "ToolTip": "F:\\2eme\\blavin\\Mission3\\Mission 3\\gsbRapports\\gsbRapports\\rechercheMed.cs [Projekt]",
+              "RelativeToolTip": "gsbRapports\\rechercheMed.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:06:54.544Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

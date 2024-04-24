@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use Barryvdh\DomPDF\Facade\Pdf;
 use PdoGsb;
 use MyDate;
-use PDF;
+use Illuminate\Support\Facades\Log;
+
 class etatFraisController extends Controller
 {
     function selectionnerMois()
@@ -270,6 +272,32 @@ class etatFraisController extends Controller
             return view('connexion')->with('erreurs', null);
         }
     }
+
+    function genererEtat(Request $request){
+
+        $id = $request['id'];
+    
+        $unVisiteur = PdoGsb::selectionneruser($id);
+    
+        // Używamy pierwszego indeksu [0], ponieważ zakładamy, że mamy jeden wynik
+        $visiteurData = $unVisiteur[0];  
+    
+        $pdf = PDF::LoadHTML(
+            "<ul>
+                <li>{$visiteurData['nom']}</li>
+                <li>{$visiteurData['prenom']}</li>
+                <li>{$visiteurData['id']}</li>
+                <li>{$visiteurData['adresse']}</li>
+                <li>{$visiteurData['cp']}</li>
+                <li>{$visiteurData['ville']}</li>
+                <li>{$visiteurData['dateEmbauche']}</li>
+            </ul>"
+        );
+    
+        return $pdf->download("bonjour.pdf");
+    }
+    
+    
 }
 
 

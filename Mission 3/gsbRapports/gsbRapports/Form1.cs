@@ -26,5 +26,19 @@ namespace gsbRapports
             rm.MdiParent = this;
             rm.Show();
         }
+
+        private void gererMedecinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MedGerer rm = new MedGerer(this.entities);
+            rm.MdiParent = this;
+            rm.Show();
+        }
+
+        private void majToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DernierRap rm = new DernierRap(this.entities);
+            rm.MdiParent = this;
+            rm.Show();
+        }
     }
 }

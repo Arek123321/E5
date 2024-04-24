@@ -60,6 +60,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DernierRap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DernierRap.Designer.cs">
+      <DependentUpon>DernierRap.cs</DependentUpon>
+    </Compile>
     <Compile Include="famille.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -86,6 +92,12 @@
     </Compile>
     <Compile Include="medecin.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MedGerer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedGerer.Designer.cs">
+      <DependentUpon>MedGerer.cs</DependentUpon>
     </Compile>
     <Compile Include="medicament.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -137,8 +149,14 @@
     <Compile Include="visiteur.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DernierRap.resx">
+      <DependentUpon>DernierRap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedGerer.resx">
+      <DependentUpon>MedGerer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MedListe.resx">
       <DependentUpon>MedListe.cs</DependentUpon>
@@ -171,7 +189,21 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\famille.datasource" />
+    <None Include="Properties\DataSources\Form1.datasource" />
+    <None Include="Properties\DataSources\gsbrapports2021Entities.datasource" />
+    <None Include="Properties\DataSources\gsbrapportsEntities.datasource" />
     <None Include="Properties\DataSources\medecin.datasource" />
+    <None Include="Properties\DataSources\medicament.datasource" />
+    <None Include="Properties\DataSources\MedListe.datasource" />
+    <None Include="Properties\DataSources\offrir.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\rapport.datasource" />
+    <None Include="Properties\DataSources\rechercheMed.datasource" />
+    <None Include="Properties\DataSources\sp_helpdiagramdefinition_Result.datasource" />
+    <None Include="Properties\DataSources\sp_helpdiagrams_Result.datasource" />
+    <None Include="Properties\DataSources\sysdiagram.datasource" />
+    <None Include="Properties\DataSources\visiteur.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -1,4 +1,4 @@
-@extends('sommaire')
+@extends('sommaireGestionnaire')
 @section('contenu1')
 <div id="contenu">
 <form action="{{Route('ajoutuser')}}" method="post">

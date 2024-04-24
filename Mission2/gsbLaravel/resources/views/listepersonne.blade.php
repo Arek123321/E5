@@ -1,5 +1,5 @@
 
-@extends('sommaire')
+@extends('sommaireGestionnaire')
     @section('contenu1')
         <div class="container text-center contenu" id="contenu">
             <div class=" corpsForm row">
